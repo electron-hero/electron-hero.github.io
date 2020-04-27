@@ -27,15 +27,14 @@
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48880899-9"></script>
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-      ga('create', 'UA-48880899-6', 'auto');
-      ga('send', 'pageview');
-
+      gtag('config', 'UA-48880899-9');
     </script>
 </head>
 <!-- NAVBAR
@@ -222,19 +221,15 @@
 
         <div class="row featurette">
             <div class="col-md-6">
-                <img class="pop featurette-image img-responsive" style="border-radius:10px" src="slack-hero.png" alt="Native Maps">
+                <img class="pop featurette-image img-responsive" style="border-radius:10px" src="slack-hero.png" alt="Slack-Hero">
             </div>
             <div class="col-md-6">
-                <h2 class="featurette-heading" style="margin-top:10px">Widgets</h2>
+                <h2 class="featurette-heading" style="margin-top:10px">Slack-Hero</h2>
                 <p class="lead">
-                    Wrist-View's innovative widget technolgy is at the core of it's usefulness. Instead of having to traverse
-                    multiple screens of navigation to get to the information you need, Wrist-View widgets combines navigation along with
-                    the data that you need. This results in the ability to stack multiple widgets on a single Apple Watch screen so you
-                    can get all the information you need on a single screen.<br><br>
-
-
-
-
+                    Slack had me at hello. It was a great looking app with some cool functionality and lots of people I knew
+                    and worked with was using it. So how hard would it be to re-create as an Electron Hero App? Not super hard, from
+                    a UI point of view. We had it up and running in about 5 days and found a great back end service (restdb.io) and an
+                    authentication service (Auth0.com) to make the POC come together even faster.
                 </p>
             </div>
         </div>
@@ -244,19 +239,15 @@
 
         <div class="row featurette">
             <div class="col-md-6">
-                <h2 class="featurette-heading" style="margin-top:30px">Multi-Mode Widgets</h2>
+                <h2 class="featurette-heading" style="margin-top:30px">ToDo Hero</h2>
                 <p class="lead">
-
-                    At the heart of Wrist-View's innovations is our Multi-Mode Widget. This allows each Widget to have 3 states, Compact, Expanded and Detail.
-                    <br><br>Compact mode shows a single row with a bit of relevant information. Widgets can expand from Compact to Expanded without having to
-                    change screens, making this a great way to quickly get a little more information. The Detail screen can be used to show
-                    all the details. <br><br>
-                    This innovative behavior on Apple Watch makes it easy to stay up to date in a single app, and most of the time, from a single screen.
-
+                    These days seems like to-do lists are a big deal. Well, we put it on our list to make an Electron-Hero todo list and
+                    we did it in under 2 days. So, with this app you can locally store as many lists as you need to get things done.
+                </p>
 
             </div>
             <div class="col-md-6">
-                <img class="featurette-image img-responsive" style="border-radius:10px" src='multi-mode.png' alt="Develop Mobile Apps with XML">
+                <img class="pop featurette-image img-responsive" style="border-radius:10px" src='todo-hero.png' alt="Todo-Hero">
             </div>
         </div>
 
