@@ -81,7 +81,7 @@
 
     <div style="height:30px;background-color:#aaa;border-bottom:1px solid #555"></div>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="15000" style="margin-bottom:20px">
+    <div id="myCarousel" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators" style="display:none">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -207,22 +207,24 @@
                 <p class="lead">
 
                     If Electron-Hero is the engine, then the next question is what can it power? To answer that question,
-                    we built some Electron-Hero. One of them is an Atom clone. Using Code-Mirror, we were able to come up
-                    with a functional text editor in just a few days.
+                    we built some Electron-Hero "apps". One of them is an Atom clone. Using Code-Mirror, we were able to come up
+                    with a functional text editor in just a few days. We didn't really find a tree-view that we liked, so
+                    we were able to include that in those few days. And we made it in a way that makes it easy to build into
+                    other Electron-Hero Apps.
 
             </div>
             <div class="col-md-6">
-                <img class="featurette-image img-responsive" style="border-radius:10px" src='atom-hero.png' alt="Atom-Hero">
+                <img class="pop featurette-image img-responsive" style="border-radius:10px" src='atom-hero.png' alt="Atom-Hero">
             </div>
         </div>
 
         <hr class="featurette-divider">
 
         <div class="row featurette">
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" style="border-radius:10px" src="widgets.png" alt="Native Maps">
+            <div class="col-md-6">
+                <img class="pop featurette-image img-responsive" style="border-radius:10px" src="slack-hero.png" alt="Native Maps">
             </div>
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <h2 class="featurette-heading" style="margin-top:10px">Widgets</h2>
                 <p class="lead">
                     Wrist-View's innovative widget technolgy is at the core of it's usefulness. Instead of having to traverse
@@ -284,6 +286,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="assets/js/docs.min.js"></script>
+
+
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <img src="" class="imagepreview" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        $(function() {
+            $('.pop').on('click', function() {
+                $('.imagepreview').attr('src', $(this).attr('src'));
+                $('#imagemodal').modal('show');
+            });
+        });
+    </script>
+
 </body>
 
 </html>
