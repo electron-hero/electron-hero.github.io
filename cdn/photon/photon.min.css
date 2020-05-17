@@ -747,8 +747,8 @@ textarea {
 
 @font-face {
     font-family: photon-entypo;
-    src: url(../fonts/photon-entypo.eot);
-    src: url(../fonts/photon-entypo.eot?#iefix) format("eot"), url(../fonts/photon-entypo.woff) format("woff"), url(../fonts/photon-entypo.ttf) format("truetype");
+    src: url(photon-entypo.eot);
+    src: url(photon-entypo.eot?#iefix) format("eot"), url(photon-entypo.woff) format("woff"), url(photon-entypo.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
