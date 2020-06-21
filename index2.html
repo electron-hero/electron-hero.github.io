@@ -14,6 +14,7 @@
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link href="default.css" rel="stylesheet">
 
     <style>
         .bd-placeholder-img {
@@ -30,6 +31,7 @@
           font-size: 3.5rem;
         }
       }
+      
     </style>
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/4.3/examples/carousel/carousel.css" rel="stylesheet">
@@ -124,34 +126,55 @@
 
             <!-- Three columns of text below the carousel -->
             <div class="row">
+
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-                    </svg>
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    <!--<img class="img-circle" data-src="holder.js/140x140/index.html" alt="Generic placeholder image">-->
+                    <h2>Experimental</h2>
+                    <p style="max-width:450px;margin-left:auto;margin-right:auto">
+
+                        We like to say Electron-Hero is an "experiment in efficiency". Everyone knows that Electron can be
+                        a bit of a resource hog. Thinking about it, if you have 10 electron based apps, there are probably many
+                        common elements between them all, but they are duplicated between each of the 10 apps.
+
+                    </p>
+
+                    <!--
+                <p><a class="btn btn-default" href="page1.html" role="button">Details &raquo;</a></p>
+                -->
+
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-                    </svg>
-                    <h2>Heading</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    <!--<img class="img-circle" data-src="holder.js/140x140/index.html" alt="Generic placeholder image">-->
+                    <h2>What If...</h2>
+                    <p style="max-width:450px;margin-left:auto;margin-right:auto">
+
+                        there was a way to have an Electron "run-time engine" that could download and run other electron "apps" without
+                        having to download and run all the resources needed for each "app" redundantly. It would save resources by leveraging common node modules
+                        across each app.
+
+
+                    </p>
+                    <!--
+              <p><a class="btn btn-default" href="page2.html" role="button">Details &raquo;</a></p>
+                -->
+
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-                    </svg>
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
-                        justo sit amet risus.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    <!--<img class="img-circle" data-src="holder.js/140x140/index.html" alt="Generic placeholder image">-->
+                    <h2>This is it</h2>
+                    <p style="max-width:450px;margin-left:auto;margin-right:auto">
+
+                        Electron-Hero is the response to that thought. It's a runtime engine that can download Electron source code and run
+                        it on the fly. The Electron-Hero runtime will have the most popular
+                        node modules pre-installed. Then each Electron-Hero app would only need to install the node modules not included.
+                    </p>
+                    <!--
+              <p><a class="btn btn-default" href="page3.html" role="button">Details &raquo;</a></p>
+            -->
+
                 </div><!-- /.col-lg-4 -->
+
+
             </div><!-- /.row -->
 
 
@@ -160,15 +183,23 @@
             <hr class="featurette-divider">
 
             <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <div class="col-md-6">
+                    <h2 class="featurette-heading">Atom Hero</h2>
+                    <p class="lead">
+                        If Electron-Hero is the engine, then the next question is what can it run? To answer that question,
+                        we built some Electron-Hero "apps". One of them is an Atom clone. Using Code-Mirror, we were able to come up
+                        with a functional text editor in just a few days. We didn't really find a tree-view that we liked, so
+                        we were able to include that in those few days. And we made it in a way that makes it easy to build into
+                        other Electron-Hero Apps.
+                    </p>
                 </div>
-                <div class="col-md-5">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
+                <div class="col-md-6">
+                    <img class="pop bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src='atom-hero.png' alt="Atom-Hero">
+
+                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                         <title>Placeholder</title>
                         <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-                    </svg>
+                    </svg> -->
                 </div>
             </div>
 
@@ -220,6 +251,40 @@
         window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')
     </script>
     <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <img src="" class="imagepreview" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .featurette-heading {
+            margin-top: 10px;
+        }
+
+        .modal-dialog {
+            max-width: 100%;
+        }
+    </style>
+
+    <script>
+        $(function() {
+            $('.pop').on('click', function() {
+                $('.imagepreview').attr('src', $(this).attr('src'));
+                $('#imagemodal').modal('show');
+            });
+        });
+    </script>
+
+
 </body>
+
+
 
 </html>
