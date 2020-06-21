@@ -1,7 +1,10 @@
-/* .hero-image {
+.hero-image {
     width: 65%;
+    max-width: 850px;
+    min-width: 400px;
 }
 
+/*
 .container.marketing {
     background-color: white;
     margin-left: 0px;
