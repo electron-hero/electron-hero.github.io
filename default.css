@@ -8,6 +8,11 @@
     margin-top: 20px;
 }
 
+.form-contact {
+    width: 600px;
+    margin: auto;
+}
+
 @media (min-width: 768px) {
     .hero-image {
         width: 600px;
@@ -24,6 +29,14 @@
     .hero-image {
         width: 850px;
     }
+}
+
+.spacer-top {
+    margin-top: 40px;
+}
+
+.navbar-collapse {
+    margin-bottom: 3px;
 }
 
 /*
