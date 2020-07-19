@@ -1,163 +1,218 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <title>Electron-Hero</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
-    <link rel='icon' href='favicon.ico' type='image/x-icon' />
-
-    <!-- Bootstrap core CSS -->
-    <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link href="default.css" rel="stylesheet">
-    <style>
-        .featurette-heading {
-            margin-top: 10px !important;
-        }
-
-        .modal-dialog {
-            max-width: 90%;
-        }
-
-        .carousel-indicators,
-        .carousel-control-next-icon,
-        .carousel-control-prev-icon {
-            display: none;
-        }
-    </style>
-
-    <style>
-        .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/docs/4.3/examples/carousel/carousel.css" rel="stylesheet">
-</head>
-
-<body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="index2.html"><img src="logo_clear_back.png" style="height:40px;padding-right:8px" />Electron-Hero</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index2.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Getting Started</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contactUs.html">Contact Us</a>
-                    </li>
-                </ul>
-                <!-- <form class="form-inline mt-2 mt-md-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form> -->
-            </div>
-        </nav>
-    </header>
-
-    <main role="main">
-
-
-
-        <!-- Marketing messaging and featurettes
-  ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
-
-        <div class="container marketing">
-
-            <!-- Three columns of text below the carousel -->
-            <div class="row">
-
-
-
-            </div><!-- /.row -->
-
-
-            <!-- START THE FEATURETTES -->
-
-            <div class="spacer-top"></div>
-            <div class="row featurette">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
-                    <h2 class="featurette-heading">Downloads</h2>
-                    <p class="lead">
-                        If Electron-Hero is the engine, then the next question is what can it run? To answer that question,
-                        we built some Electron-Hero "apps". One of them is an Atom clone. Using Code-Mirror, we were able to come up
-                        with a functional text editor in just a few days. We didn't really find a tree-view that we liked, so
-                        we were able to include that in those few days. And we made it in a way that makes it easy to build into
-                        other Electron-Hero Apps.
-                    </p>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Jekyll v3.8.5">
+        <title>Electron-Hero
+        </title>
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+        <link rel='icon' href='favicon.ico' type='image/x-icon' />
+        <!-- Bootstrap core CSS -->
+        <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="default.css" rel="stylesheet">
+        <style>
+            .featurette-heading {
+                margin-top: 10px !important;
+            }
+            .modal-dialog {
+                max-width: 90%;
+            }
+            .carousel-indicators,
+            .carousel-control-next-icon,
+            .carousel-control-prev-icon {
+                display: none;
+            }
+        </style>
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+        </style>
+        <!-- Custom styles for this template -->
+        <link href="https://getbootstrap.com/docs/4.3/examples/carousel/carousel.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="index2.html">
+                    <img src="logo_clear_back.png" style="height:40px;padding-right:8px" />Electron-Hero
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index2.html">Home
+                                <span class="sr-only">(current)
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Getting Started
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactUs.html">Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- <form class="form-inline mt-2 mt-md-0">
+<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form> -->
                 </div>
-                <div class="col-md-1"></div>
+            </nav>
+        </header>
+        <main role="main">
+            <!-- Marketing messaging and featurettes
+================================================== -->
+            <!-- Wrap the rest of the page in another container to center all the content. -->
+            <div class="container marketing">
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                </div>
+                <!-- /.row -->
+                <!-- START THE FEATURETTES -->
+                <div class="spacer-top">
+                </div>
+
+
+                <div class="row featurette">
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-10">
+                        <h2 class="featurette-heading">Start at the beginning
+                        </h2>
+                        <p class="lead">
+                            Electron-Hero is based on the premise of having a "run-time engine" that is used to run Electron-Hero apps.
+                            These apps are virtually identical to a traditional Electron app but the code is loaded and run dynamically.
+                            Any Electron app runtime has a lot of overhead.  If you are running 3 Electron apps you've got this overhead
+                            3 times.  Similarly, if you have a few Electron apps running that are using the same node modules, you could
+                            have a lot of duplicated node modules as well.  Electron-Hero is an attempt to make this whole scenario more efficient.
+                        </p>
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                </div>
+
+                <div class="app-header">
+                    <span>THE CONSOLE<span>
+                </div>
+
+                <div class="row featurette">
+                    <div class="col-md-8 order-md-2">
+                        <span class="spacer-one">&nbsp;</span>
+                        <p class="">The Electron-Hero console is the heart of it all.  Using the very simple console, you can put the URL in for a
+                            slack app and then hit "Install".  Once installed, you simply click "Run" and you're up and running.  See below
+                            some of the apps we've developed as part of developing Electron-Hero.  Some are simple, some are more complex, it's all
+                            a work in progress, so consider all these apps BETA.
+
+                        </p>
+                    </div>
+                    <div class="col-md-4 order-md-1">
+                        <img class="pop bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto console-img" style="border-radius:10px" src="hero-console.png" alt="Slack-Hero">
+                    </div>
+                </div>
+
+<div class="app-header">
+    <span>THE APPS<span>
+</div>
+
+                <div class="row featurette">
+                    <div class="col-md-8 order-md-2">
+                        <span class="spacer-one">&nbsp;</span>
+                        <!-- <h2 class="">Starter</h2>abc -->
+                        <p class="">
+                            <p ><span class="app-title">Starter</span> <img src="git-hub-logo.png" class="ghlogo" > https://github.com/electron-hero-apps/starter</p>
+                            The "starter" app is about as simple of an Electron-Hero that you can get.  It's a simple 2 pane app
+                            using PhotonKit to give it some UI love.  If you want to see what makes Electron-Hero tick, this is a
+                            great place to start.  Load it up, and then go mess with the source code and just hit "Reload" and you'll
+                            see your changes!
+                        </p>
+                    </div>
+                    <div class="col-md-4 order-md-1">
+                        <img class="pop bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto console-img" style="border-radius:10px" src="starter.png" alt="Slack-Hero">
+                    </div>
+                </div>
+
+                <div class="row featurette">
+                    <div class="col-md-8 order-md-2">
+                        <span class="spacer-one">&nbsp;</span>
+                        <!-- <h2 class="">Starter</h2>abc -->
+                        <p class="">
+                            <p ><span class="app-title">Ruler</span> <img src="git-hub-logo.png" class="ghlogo" > https://github.com/electron-hero-apps/ruler</p>
+                            The "starter" app is about as simple of an Electron-Hero that you can get.  It's a simple 2 pane app
+                            using PhotonKit to give it some UI love.  If you want to see what makes Electron-Hero tick, this is a
+                            great place to start.  Load it up, and then go mess with the source code and just hit "Reload" and you'll
+                            see your changes!
+                        </p>
+                    </div>
+                    <div class="col-md-4 order-md-1">
+                        <img class="pop bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto ruler-img" style="border-radius:10px" src="ruler.png" alt="Slack-Hero">
+                    </div>
+                </div>
+
+
+                <div class="row featurette">
+                    <div class="col-md-8 order-md-2">
+                        <h2 class="featurette-heading">Slack-Hero
+                        </h2>
+                        <p class="lead">
+                            The Ruler app is just about as basic as the starter app, but it's basically a draggable image in a window.
+                            I always enjoyed using ruler apps to take on screen measurements, so it was fun making this as an Electron-Hero App.
+                        </p>
+                    </div>
+                    <div class="col-md-4 order-md-1">
+                        <img class="pop bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" style="border-radius:10px" src="slack-hero.png" alt="Slack-Hero">
+                    </div>
+                </div>
+                <!-- /END THE FEATURETTES -->
             </div>
+            <!-- /.container -->
+            <!-- FOOTER -->
+            <footer class="container">
+                <!-- <p class="float-right"><a href="#">Back to top</a></p> -->
+                <!-- <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
+            </footer>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script>
+            window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')
+        </script>
+        <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous">
+        </script>
+		<script src="default.js"></script>
 
-
-            <!-- /END THE FEATURETTES -->
-
-        </div><!-- /.container -->
-
-
-        <!-- FOOTER -->
-        <footer class="container">
-            <!-- <p class="float-right"><a href="#">Back to top</a></p> -->
-            <!-- <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
-        </footer>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>
-        window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')
-    </script>
-    <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
-
-    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    <img src="" class="imagepreview" style="width: 100%;">
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;
+                            </span>
+                            <span class="sr-only">Close
+                            </span>
+                        </button>
+                        <img src="" class="imagepreview" style="width: 100%;">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <script>
-        $(function() {
-            $('.pop').on('click', function() {
-                $('.imagepreview').attr('src', $(this).attr('src'));
-                $('#imagemodal').modal('show');
-            });
-        });
-    </script>
-
-
-</body>
-
-
-
+    </body>
 </html>

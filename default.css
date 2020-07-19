@@ -60,3 +60,44 @@ BODY {
 .featurette-heading {
     margin-top: 0px;
 }
+
+.spacer-one {
+	float: left;
+    height: 10px;
+}
+
+.console-img {
+}
+
+.ghlogo {
+    height: 30px;
+}
+
+.app-title {
+    font-weight: bold;
+}
+
+.app-header {
+    margin-top: 20px;
+    border-top:1px solid #aaa;
+    float: left;
+    display:block;
+    width: 100%;
+}
+
+.app-header > span {
+    float: left;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    background-color: #ddd;
+    color: white;
+    position: relative;
+    top: -12px;
+
+}
+
+.ruler-img {
+    margin-top: 50px;
+}
