@@ -105,3 +105,13 @@ BODY {
 img.pop {
 /* 	border:1px solid red; */
 }
+
+span.code {
+    background-color: #f6f6f6;
+    color: #ce375c;
+    font-family: "menlo", courier, monospace;
+    font-size:13px;
+    border:1px solid #bdbdbd;
+    padding:2px;
+    border-radius: 5px;
+}
