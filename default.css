@@ -115,3 +115,7 @@ span.code {
     padding:2px;
     border-radius: 5px;
 }
+
+span.light {
+    color: #ddd;
+}
